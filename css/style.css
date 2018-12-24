@@ -1,0 +1,40 @@
+.header-bg{
+    background-image: url("../image/main-img.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+.think{
+    font-weight: bold;
+}
+.title{
+    font-size:3rem;
+    font-weight: bolder;
+}
+.title-rounded{
+    border-radius: 2em;
+}
+.orange{
+    background-color: #fac769;
+}
+.img-headphone{
+    height: 160px;
+    width: 260px;
+}
+.img-gallary:hover{
+    opacity:0.5;
+    transition: .3s ease-in-out;
+}
+.no-border
+{
+    border: none !important;
+}
+.text-orange{
+    color: #fac769;
+}
+.card-text{
+    position: absolute;
+}
+.big-title{
+    position: absolute;
+}
