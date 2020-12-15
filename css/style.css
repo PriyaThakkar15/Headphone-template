@@ -13,7 +13,16 @@
 }
 .title-rounded{
     border-radius: 2em;
+    border-radius: 100px;
+    transition-property: background-color, color, border-color, box-shadow;
+    transition-duration: .3s,.3s,.3s,.8s;
+    transition-timing-function: ease-in-out;
 }
+
+.title-rounded:hover{
+    box-shadow: 0 10px 40px 0 rgba(0, 0, 0, 0.2) !important;
+}
+
 .orange{
     background-color: #fac769;
 }
@@ -32,9 +41,85 @@
 .text-orange{
     color: #fac769;
 }
-.card-text{
-    position: absolute;
+.card-text-index{
+    position: relative;
+}
+.card-text-index h6{
+    font-family: 'Poppins', sans-serif;
+    font-size: 1rem;
+}
+.card-text-index p{
+    font-family: 'Rubik', sans-serif;
+    font-size: 1rem;
+    font-style: normal;
+    line-height: 1.6;
 }
 .big-title{
-    position: absolute;
+    position: relative;
+    display: flex;
+    align-items: center;
 }
+.big-title h6{
+    z-index: 1;
+    width: 100%;
+}
+.number{
+    flex-shrink: 0;
+    position: absolute;
+    z-index: 0;
+    font-size: 4rem;
+    width: 100%;
+    font-family: 'Poppins', sans-serif;
+}
+.section-title{
+    padding-bottom: 30px;
+}
+.section-title h6{
+    font-family: 'Poppins', sans-serif;
+    color: #767676;
+    font-size: 1rem;
+    line-height: 1.3;
+    font-weight: bold;
+}
+.section-title h1{
+    font-family: 'Poppins', sans-serif;
+    font-size: 2rem;
+    font-style: normal;
+    line-height: 1.2;
+    font-weight: 700;
+}
+footer{
+    padding-top: 90px;
+    padding-bottom: 30px;
+    background-color: #ffffff;
+}
+.social-media ul{
+    list-style: none;
+}
+.social-media ul li{
+    padding: 4px;
+    display: inline-block;
+}
+.copyright{
+    font-family: 'Rubik', sans-serif;
+    font-size: 1rem;
+    color:#767676;
+    text-align: center;
+}
+.social-media ul li a i{
+    background-color: #f5d69c;
+    color: #ffffff;
+    display: block;
+    padding: 0.1rem 0.8rem;
+    height: 3em;
+    line-height: 3em;
+    border-radius: 50%;
+    background-color: #fac769;
+    width: 3em;
+    -webkit-transition: all 0.3s ease-out 0s;
+    transition: all 0.3s ease-out 0s;
+    font-size: 13px;
+    text-align: center;
+}
+
+
